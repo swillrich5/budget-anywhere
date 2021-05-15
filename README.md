@@ -3,13 +3,13 @@
 
 ## Description
 
-budget-anywhere is an application that allows the user to track income and expenses, even without an internet connection.  
+budget-anywhere is an application that allows the user to track income and expenses on the go, even without an internet connection. Please see the "Technology" section below for details on the PWA implementation. 
 
 ---
 
 ## Deployed Application
 
-https://secure-crag-36323.herokuapp.com/
+https://scott-budget-anywhere.herokuapp.com/
 
 ---
 
@@ -70,9 +70,9 @@ The following technology was used to build note-taker:
 
   * mongoose - https://mongoosejs.com/
 
-  * morgan - https://www.npmjs.com/package/morgan
-
   * node - https://nodejs.org/en/
+
+In addition to the technology listed above, the app is set up as a progressive web app (PWA), using IndexedDB and service worker to store transactions while an internet connection is unstable or unavailable, and then posting them to the database when internet serivce is reestablished.
 
 ---
 
